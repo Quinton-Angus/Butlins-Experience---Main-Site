@@ -20,24 +20,15 @@ body {
     color: var(--secondary);
 }
 
-@media(prefers-color-scheme: dark) {
-    * {
-        --primary: #121212;
-        --secondary: #ffffff;
-        --accent: #949494;
-        --red: #DB2C2C;
-    }
-    
-}
 
-@media(prefers-color-scheme: light)  {
-    * {
-        --primary: #ffffff;
-        --secondary: #121212;
-        --accent: #949494;
-        --red: #DB2C2C;
-    } 
+* {
+    --primary: #000000;
+    --secondary: #ffffff;
+    --accent: #646464;
+    --red: #DB2C2C;
 }
+    
+
 
 
 
@@ -61,7 +52,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: var(--accent) 1px solid;
+    border-bottom: #272727 1px solid;
     margin-bottom: 2.5rem;
 }
 
@@ -290,6 +281,7 @@ header {
     color: var(--primary);
     font-weight: 300;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 @media(min-width: 300px) {
