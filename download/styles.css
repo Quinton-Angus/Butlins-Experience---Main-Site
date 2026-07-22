@@ -63,7 +63,7 @@ header {
 #containerMain {
     width: 60rem;
     height: 60rem;
-    background-image: url(/assets/butlinsExperienceVector.svg);
+    background-image: url(./assets/butlinsExperienceVector.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
