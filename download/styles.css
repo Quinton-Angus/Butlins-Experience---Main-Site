@@ -219,13 +219,13 @@ header {
 
 @media(prefers-color-scheme: dark) {
     #footerLogo {
-        background-image: url('/assets/QDLogo_Black.svg');
+        background-image: url('./assets/QDLogo_Black.svg');
     }
 }
 
 @media(prefers-color-scheme: light) {
     #footerLogo {
-        background-image: url('/assets/QDLogo_White.svg');
+        background-image: url('./assets/QDLogo_White.svg');
     }
 }
 
