@@ -13,8 +13,8 @@ async function login() {
         method: 'POST',
         headers: {'Content-Type':'application/json'},
         body: JSON.stringify({
-            email: email,
-            password: password
+            email: email.value,
+            password: password.value
         })
     })
 
@@ -26,7 +26,7 @@ async function login() {
         window.location.href = `butlinsexperience://auth/callback?connectionToken=${connectionToken}`
     } else {
         message.innerHTML = response.error
-        console.log(error)
+        console.log(response.error)
     }
 }
 
