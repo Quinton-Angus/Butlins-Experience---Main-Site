@@ -9,7 +9,7 @@ async function signUp() {
 }
 
 async function login() {
-    const data = await fetch('https://api.quintondev.com/butlins-experience/auth/login', {
+    const data = await fetch('https://api.quintondev.com/butlinsExperience/auth/login', {
         method: 'POST',
         headers: {'Content-Type':'application/json'},
         body: JSON.stringify({
