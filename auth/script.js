@@ -23,7 +23,7 @@ async function login() {
     if (response.outcome === true) {
         const connectionToken = response.connectionToken
 
-        window.location.href = `butlinsexperience://auth/callback?connectionToken=${connectionToken}`
+        window.location.href = `butlinsexperience://?connectionToken=${connectionToken}`
     } else {
         message.innerHTML = response.error
         console.log(response.error)
